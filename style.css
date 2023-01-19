@@ -15,13 +15,13 @@
     
 }
 .btn{
-    padding: 0%;
+    padding: 3%;
     border: 2px solid blue;
     border-radius: 30%;
     color: blue;
     background-color: #fff;
-    height: 8vh;
-    width: 8vw;
+    max-height: 16vh;
+    max-width: 20vw;
     font-weight: bold;
     cursor: pointer;
 
@@ -55,12 +55,12 @@ h3{
     text-align: center;
 }
 .img3 img{
-    width: 60vw;
-    height: 60vh;
+   max-width: 100vw;
+    max-height: 60vh;
 }
 .myself{
     background-color: #6E07F3;
-    height: 70vh;
+    max-height: 70vh;
     color: white;
     text-align: center;
    
@@ -69,16 +69,17 @@ h3{
 .myself h2{
     font-weight: bold;
     padding-top: 3%;
-    font-size: 2rem;
+    font-size: 5vw;
 }
 .myself h3{
-    width: 40vw;
-    margin: 3% 0% 5% 29%;
+    max-width: 80vw;
+    margin: 1.5% 0% 5% 10%;
+    
 }
 .technology{
-    height:175vh;
+    max-height:250vh;
     background-color: white;
-    width: 90vw;
+    max-width: 90vw;
     margin-left: 4.5%;
     border: 1px solid white;
     border-radius: 1%;
@@ -87,42 +88,42 @@ h3{
    
 }
 .frontend{
-    width: 45vw;
+    max-width: 45vw;
     border-right: 1px solid #f8e6e6;
-    height: 175vh;
+    max-height: 200vh;
 }
 .backend{
-    width: 45vw;
+    max-width: 45vw;
     border-right: 1px solid #f8e6e6;
-    height: 175vh;
+   max-height: 200vh;
 }
 #img1{
-    width: 15vw;
-    height: 15vh;
+    max-width: 25vw;
+    max-height: 25vh;
     display: block;
-    margin: 2% 0% 6% 36%;
+    margin: 2% 0% 6% 28%;
 }
 #img2{
-    width: 15vw;
-    height: 15vh;
+    max-width: 25vw;
+    max-height: 25vh;
     display: block;
-    margin: 8% 0% 6% 31%;
+    margin: 8% 0% 5% 23%;
 }
 .frontend h3{
     color: black;
-    width: 20vw;
+    max-width: 60vw;
 }
 .frontend h2{
     color: blue;
-    width: 45vw;
+    max-width: 45vw;
 }
 .lang{
     color: black;
     margin-top: 4%;
 }
 .backend img{
-    width: 15vw;
-    height:25vh;
+    max-width: 25vw;
+    max-height:25vh;
     margin-top: 4%;
 }
 .backend h2{
@@ -151,9 +152,9 @@ margin-top: 7%;
     padding-top: 2%;
 }
 .prj-img img{
-    width: 22vw;
+    max-width: 22vw;
     margin: 4%;
-    height: 22vh;
+    max-height: 22vh;
     border: 1px solid blue;
     border-radius: 30%;
     
@@ -166,7 +167,7 @@ margin-top: 7%;
     height: 75vh;
 }
 .prj1 h4{
-    width: 25vw;
+    max-width: 50vw;
     margin-left: 12%;
     color: rgb(99, 14, 14);
     height: 15vh;
@@ -186,13 +187,13 @@ margin-top: 7%;
     height: 75vh;
 }
 .prj2 h4{
-    width: 25vw;
+    max-width: 50vw;
     margin-left: 12%;
     color: rgb(29, 12, 66);
     height: 15vh;
 }
 .prj3 h4{
-    width: 25vw;
+    max-width: 50vw;
     margin-left: 12%;
     color: rgb(254, 159, 159);
     height: 15vh;
@@ -205,8 +206,8 @@ margin-top: 7%;
     background-color: white;
     color: blue;
     border-radius: 30%;
-    width: 7vw;
-    height: 7vh;
+    max-width: 50vw;
+    max-height: 50vh;
     padding: 1%;
     text-decoration: none;
     display: flex;
@@ -220,8 +221,8 @@ margin-top: 7%;
     background-color: white;
     color: blue;
     border-radius: 30%;
-    width: 7vw;
-    height: 7vh;
+    max-width: 50vw;
+    max-height: 7vh;
     padding: 1%;
     text-decoration: none;
     font-weight: bold;
@@ -234,8 +235,8 @@ margin-top: 7%;
     background-color: white;
     color: blue;
     border-radius: 30%;
-    width: 7vw;
-    height: 7vh;
+    max-width: 50vw;
+    max-height: 50vh;
     padding: 1%;
     text-decoration: none;
     font-weight: bold;
@@ -253,19 +254,19 @@ margin-top: 7%;
     color:white;
 }
 .footer{
-    width: 100vw;
-    height: 20vh;
+    max-width: 100vw;
+    max-height: 20vh;
     background-color: black;
     margin-top: 1%;
 
 }
 .logo1{
-    width: 60%;
-    height: 60%;
+    max-width: 5vw;
+    max-height: 5vh;
   border: 2px solid black;
     border-radius: 15px;
     margin-top: 2%;
-    margin-left: 350%;
+    margin-left: 20vw;
 
 }
 .logo1:hover{
@@ -283,9 +284,9 @@ margin-top: 7%;
 
 }
 .logo2{
-    width: 100%;
-    height: 60%;
-    margin-left: 1200%;
+    max-width: 5vw;
+    max-height: 5vh;
+    margin-left: 10vw;
     border: 2px solid black;
     border-radius: 15px;
     
@@ -296,7 +297,7 @@ margin-top: 7%;
 }
 .iind{
     display: inline-block;
-    margin-right: 40%;
+    margin-right: 10%;
     margin-top: 2%;
 
 }
@@ -306,9 +307,83 @@ margin-top: 7%;
     margin-top: 2%;
 }
 .logo3{
-    width: 50%;
-    height: 60%;
+    max-width: 5vw;
+    max-height: 5vh;
     border: 2px solid black;
     border-radius: 15px;
+    
+
+}
+
+@media screen and (max-width:700px) {
+    .top img{
+        width: 5vw;
+        height: 5vh;
+        margin: 80% 10% 2% 110%;
+    }
+    .buttons{
+        display: block;
+        margin: 3% 1% 9% 60%;
+       width: 50vw;
+    
+        
+    }
+   
+    
+}
+@media screen and (max-width:500px){
+    .top img{
+        width: 4vw;
+        height: 4vh;
+        margin: 90% 5% 2% 110%;
+    }
+    .buttons{
+        display: block;
+        margin: 3% 1% 9% 50%;
+       width: 50vw;
+    
+        
+    }
+    .heading{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1rem;
+        margin: 10% 0% 0% 0%;
+    }
+    .img2{
+        
+            margin: 5% 5% 3% 20%;
+            
+        
+    }
+    .myself h3{
+        font-size: 4vw;
+    }
+    .buttonss1 button{
+        margin-top: 30%;
+        margin-right: 20%;
+    }
+    .buttonss2 button{
+        margin-top: 30%;
+        margin-right: 40%;
+    }
+    .buttonss3 button{
+        margin-top: 30%;
+        margin-right: 40%;
+    }
+    .prj2 h4  {
+        height: 40vh;
+    }
+    .prj1 h4  {
+        height: 40vh;
+    }
+    .prj3 h4  {
+        height: 40vh;
+    }
+    .prj-img img{
+        height: 8vh;
+    }
+    
+    
 
 }
